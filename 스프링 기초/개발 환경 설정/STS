@@ -1,0 +1,11 @@
+1.new legacy project로 해야함.
+2.Project mvc선택
+3.패키지이름은 com.~~~.app 으로 넣어야함. 도메인 주소의 역순.
+4.톰켓 연결 왼쪽하단에 servers에서 Tomcat넣고 내가 저장한 파일로 지정함.
+5.프로젝트명 우클릭에 Run on server 클릭하고 tomcat 지정.
+6. 5번에서 오류뜰거임 이때 우측 상단에 돋보기 모양 클릭해서
+Web Browser - preferences를 들어간다.
+Genenral - web browser - use external web browesr - new - chrome - 경로는 google chrome으로 설정하고
+chrome에 체크박스 하고 어플라이
+
+
