@@ -1,0 +1,11 @@
+터미널에
+cd ~/apache-tomcat-9.0.67/bin
+
+
+이때 ls -la 하면 항목볼 수 있음.
+
+cd~는 기본적으로 설정된 내 폴더로 해야함.
+
+
+Tomcat 실행 : ./startup.sh     --> 확인은 브라우저 localhost:8080으로 확인
+종료 : ./shutdown.sh --->톰캣 종료.
