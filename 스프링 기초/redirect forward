@@ -1,0 +1,7 @@
+redirect : 300번대. 다른 URL로 재요청, BODY 없음.
+write.jsp간의 응답 후
+login.jsp로 재요청 하는 것!
+
+
+forward : 요청을 그대로"전달"  write.jsp -> login.jsp로 전달하는것!
+forward가 MVC패턴을 보여준다.
