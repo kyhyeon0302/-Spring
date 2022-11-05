@@ -1,3 +1,15 @@
 커밋(commit) : 명령을 수행한 결과를 DB에 반영하는 것을 말한다. (커밋을 이후에는 롤백이 불가하다는 특징이 있다.)
 롤백(rollback) : 수행한 작업을 취소하고 마지막 커밋 상태로 되돌리는 것을 말한다. (undo)
 오토커밋(auto commit) : 명령을 수행할 때 마다 자동으로 커밋이 수행되는 것을 말한다.
+
+
+-- select now();
+
+INSERT INTO `springbasic`.`user_info` VALUES ( 'asdf1', '1234' , '강용현', 'aaa@aaa.com', '1993-03-02', ' ', now());
+
+
+-- *은 전부, 특정 id,는 모두
+
+select * from user_info;
+
+update user_info set pwd ='8888', email ='bbb@bbbb.com' where id = 'asdf2';
